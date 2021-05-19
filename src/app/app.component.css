@@ -1,0 +1,14 @@
+*{
+    color: rgb(39, 198, 238);
+}
+
+.row{
+    border: 1px solid navajowhite;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}

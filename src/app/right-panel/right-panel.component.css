@@ -1,0 +1,31 @@
+.rightColumn {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+  }
+
+  .htmlDiv{
+    height: 200px;
+    background-color: rgba(142, 216, 108, 0.274);
+    margin-bottom:5px ;
+  }
+
+  .cssDiv{
+    height: 250px;
+    background-color: rgba(142, 216, 108, 0.274);
+  }
+
+  .cssData{
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .innerCss{
+    height:100px;
+    background-color: rgb(236, 230, 232);
+    overflow: scroll;
+    width: auto;;
+    margin-left: 10px;
+  }

@@ -1,0 +1,39 @@
+#middleColumn {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 500px;
+  text-align:center;
+  margin-top: 60px;
+  margin-right: 70px;
+
+}
+#button1,#button2{
+  margin:auto;
+}
+
+.buttonBlue {
+  background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttonRed {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
