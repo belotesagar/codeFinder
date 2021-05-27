@@ -12,7 +12,7 @@ export class RightPanelComponent implements OnInit {
   htmlData: any
   cssData: any
   innerCssData: any;
-  showInnerCss=false;
+  showInnerCss = false;
   ngOnInit(): void {
     setTimeout(() => { this.ngOnInit() }, 1000 * 1)
     this.htmlData = this._sharedService.htmlData;
@@ -21,7 +21,12 @@ export class RightPanelComponent implements OnInit {
   }
 
   loadCard() {
-    this.showInnerCss=true;
+    if (this.showInnerCss) {
+      this.showInnerCss = false;
+    }
+    else {
+      this.showInnerCss = true;
+    }
 
   }
 

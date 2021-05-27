@@ -1,14 +1,18 @@
 #middleColumn {
   float: left;
-  width: 40%;
+  width: 44%;
   padding: 10px;
-  height: 500px;
+  height: 610px;
   text-align:center;
-  margin-top: 60px;
-  margin-right: 70px;
-
+  margin-left: -1px;
+  border: 1px solid rgb(160, 152, 142);
+  border-collapse: collapse;
 }
-#button1,#button2{
+#button1{
+  margin:auto;
+  padding-top: 48px;
+}
+#button2{
   margin:auto;
 }
 

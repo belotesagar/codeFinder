@@ -2,30 +2,56 @@
     float: left;
     width: 40%;
     padding: 10px;
-    height: auto;
+    height: 610px;
     text-align: center;
+    border: 1px solid rgb(160, 152, 142);
+    border-collapse: collapse;
+    margin-left: -1px;
   }
 
   .htmlDiv{
     height: 200px;
-    background-color: rgba(142, 216, 108, 0.274);
+    background-color: rgba(245, 245, 245, 0.986);
     margin-bottom:5px ;
   }
 
   .cssDiv{
-    height: 250px;
-    background-color: rgba(142, 216, 108, 0.274);
+    height: 342px;
+    background-color: rgb(245, 245, 245, 0.986);
+    position: absolute;
+    width: inherit;
   }
 
   .cssData{
-    display: inline-block;
+    display: block;
+    width: 100%;
     cursor: pointer;
+    float: left;
+  }
+
+  button{
+    display: block;
+    width: 96%;
+    border: none;
+    background-color: #cec8c8;
+    padding-top: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: start;
+    margin: 10px 10px 0px 10px;
   }
 
   .innerCss{
-    height:100px;
-    background-color: rgb(236, 230, 232);
-    overflow: scroll;
-    width: auto;;
+    height: 200px;
+    background-color: #dedbdb;
+    overflow: hidden;
+    width: 96%;
     margin-left: 10px;
+  }
+
+  .icon{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -14px;
   }

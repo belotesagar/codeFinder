@@ -1,20 +1,16 @@
 <div class="rightColumn">
-    <h2>Data</h2>
-    <hr>
+    <h2 style="border-bottom: 1px solid rgb(160, 152, 142);">Details</h2>
     <div class="htmlDiv">
         <h4>HTML</h4>
-        <!-- <button (click)="viewHtml()">view html</button> -->
         {{htmlData}}
     </div>
     <div class="cssDiv">
         <h4>CSS</h4>
         <div class="cssData" *ngFor="let csClass of cssData" (click)="loadCard()">
-            <h1 style="margin: 20px;border: 1px solid black;">{{csClass}}</h1>
-            <div class="innerCss" *ngIf="showInnerCss">
-                {{innerCssData}}
-            </div>
+            <button>{{csClass}}<i class="fas fa-angle-down icon"></i></button>
+
         </div>
-        <!-- <div class="innerCss" *ngIf="showInnerCss">
+        <div class="innerCss" *ngIf="showInnerCss">
             {{innerCssData}}
-        </div> -->
+        </div>
     </div>
